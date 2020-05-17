@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
+
+body {
+    /* background-image: url('../img/bg.jpg'); */
+    background: #696969;
+    font: "Roboto", sans-serif;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+}
+
+#mensagemViewm {
+    right: 0;
+    top: -.5em;
+    font-size: 1em;
+    font-weight: 500;
+    top: 1em;
+}
+
+.adjust {
+    display: flex;
+    height: 100%;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.text {
+    font-size: 30px;
+    text-align: left;
+    color: #B22222;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.adjust-form {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px;
+    background: #B22222;
+}
+
+.box {
+    color: white;
+    margin-bottom: 5px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.btn-decoration {
+    margin: 15px 5px 10px 30px;
+    width: 100px;
+    background: #696969;
+    border: none;
+}
+
+.btn-decoration:hover {
+    background: #B22222;
+    border: none;
+}
+
+.btn-decoration:active{
+    background: #B22222;
+    border: none;
+}
+
+.alert {
+    color: white;
+    background: transparent;
+    width: 24%;
+    border: none;
+    text-align: center;
+}
+
+#negociacoesView {
+    background-color: white;
+    color: black;
+}
+
+table {
+    border: 1px solid black;
+}
+
+th {
+    font-size: 14px;
+    background: #B22222;
+    color: white;
+    text-align: center;
+}
